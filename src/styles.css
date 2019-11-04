@@ -6,3 +6,24 @@
 h1 {
     font-size: 1.4em;
 }
+
+a:link,
+a:visited {
+    color: #000;
+}
+.main {
+    padding: 8px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+table th {
+    background-color: #ddd;
+    text-align: left;
+}
