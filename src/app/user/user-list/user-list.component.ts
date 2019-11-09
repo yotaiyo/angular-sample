@@ -7,6 +7,7 @@ import { UserService } from '../user.service';
   templateUrl: './user-list.component.html',
   styleUrls: ['./user-list.component.css']
 })
+
 export class UserListComponent implements OnInit {
   users: User[];
 
@@ -17,5 +18,4 @@ export class UserListComponent implements OnInit {
   ngOnInit() {
     this.users = this.servise.getUsers();
   }
-
 }
